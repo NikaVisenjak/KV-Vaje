@@ -84,9 +84,52 @@ cd /
 ls -la
 ```
 
+
+HTOP je enostaven paket za diagnostiko sistema. Lahko preizkusite tudi paket btop.
+
+```bash
+htop
+sudo apt install htop		# namestitev htop
+htop
+```
+
+Traceroute je osnovno orodje za preverjanje povezljivosti omrežja.
+
+```bash
+htop
+sudo apt install traceroute	-y	# namestitev traceroute
+traceroute google.com
+```
+
+Za enostavno forenziko lahko uporabljamo paket strings s pomočjo katerega lahko iz binarnih datotek preberemo nize znakov, ki so berljivi.
+
+```bash
+strings /bin/ls | head
+```
+
+Za grafični prikaz upload/download prometa na omrežju lahko uporabimo paket nload.
+
+```bash
+sudo apt install nload -y
+nload
+```
+
 #### 3️⃣ Uporaba orodij v Kali Linux
 
 V nadaljevanju si bomo pogledali in predstavili nekaj osnovnih orodij, ki so na voljo znotraj Kali Linux. 
+
+Najprej bomo preverili hitrost prenosa podatkov s pomočjo paketa speedtest-cli.
+
+```bash
+sudo apt install speedtest-cli -y
+speedtest-cli --secure
+```
+
+Velikokrat moramo za potrebe forenzične analize ali diagnostike spremljati promet na omrežju, to lahko naredimo s pomočjo paketa tcpdump.
+
+```bash
+sudo tcpdump -c 10
+```
 
 NMAP in ZenMAP sta uporabni orodji za fazo skeniranja v Kali Linuxu. NMAP in ZenMAP sta praktično isti orodji, vendar NMAP uporablja ukazno vrstico, medtem ko ima ZenMAP grafični uporabniški vmesnik.
 
