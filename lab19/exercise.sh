@@ -1,3 +1,4 @@
+sha256sum install.sh > install.sh.sha256
 gpg --full-generate-key
 gpg --list-keys
 gpg --detach-sign install.sh.sha256 
