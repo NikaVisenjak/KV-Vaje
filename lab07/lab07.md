@@ -24,7 +24,7 @@
 
 ## Posnetek zaslona lažne prijavne strani - kopija
 tehnicne zadeve - ni delovalo po korakih 1, 2, 3, 2 --> zadni korak sem dala 3 (custom), kjer se more uporabit index.html
-![Kopija](screenshots/index_page.png)
+![Kopija](screenshots/index-page.png)
 
 ### (2) Zagon SET in kloniranje
 ![SET01](screenshots/korak_1.png)
