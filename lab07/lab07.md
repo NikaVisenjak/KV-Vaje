@@ -29,7 +29,7 @@ tehnicne zadeve - ni delovalo po korakih 1, 2, 3, 2 --> zadni korak sem dala 3 (
 ### (2) Zagon SET in kloniranje
 ![SET01](screenshots/korak_1.png)
 ![SET02](screenshots/korak_2.png)
-![Klonirana stran](screenshots/klonirana_stran.png)
+![Klonirana stran](screenshots/kloniranaStran.png)
 
 ## zagon 
 ```bash
